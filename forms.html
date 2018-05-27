@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+<fieldset>
+<legend>Personal Information</legend>
+  First name:<br>
+  <input type="text" name="firstname" value="Lokesh">
+  <br><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Nandanwar">
+  <br><br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+  <br><br>
+  Food preference<br>
+  <select name="menu">
+  <option value="veg">Veg</option>
+  <option value="non-veg">Non Veg</option>
+  <option value="both">Both</option>
+</select><br><br>
+  <input type="submit" value="Submit">
+  </fieldset>
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
